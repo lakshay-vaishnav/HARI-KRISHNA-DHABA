@@ -8,10 +8,10 @@ import paratha from "@/assets/paratha.jpg";
 import churnaan from "@/assets/churnaan.jpg";
 import chowmein from "@/assets/chowmein.jpg";
 import thali from "@/assets/thali.jpg";
-import menu12 from "@/assets/menu-12.png.asset.json";
-import menu13 from "@/assets/menu-13.png.asset.json";
-import menu14 from "@/assets/menu-14.png.asset.json";
-import menu15 from "@/assets/menu-15.png.asset.json";
+import menu12 from "@/assets/menu-12.png";
+import menu13 from "@/assets/menu-13.png";
+import menu14 from "@/assets/menu-14.png";
+import menu15 from "@/assets/menu-15.png";
 
 export const Route = createFileRoute("/")({
   component: Home,
@@ -27,10 +27,10 @@ const dishes = [
 ];
 
 const menuPages = [
-  { src: menu14.url, label: "Special Vegetables · Dal · Basmati Rice · Raita · Tandoor" },
-  { src: menu12.url, label: "Main Course · Paneer Specials" },
-  { src: menu13.url, label: "Mushroom · Rice & Biryani" },
-  { src: menu15.url, label: "Snacks · Chaap · Kabab" },
+  { src: menu14, label: "Special Vegetables · Dal · Basmati Rice · Raita · Tandoor" },
+  { src: menu12, label: "Main Course · Paneer Specials" },
+  { src: menu13, label: "Mushroom · Rice & Biryani" },
+  { src: menu15, label: "Snacks · Chaap · Kabab" },
 ];
 
 function Ornament() {
