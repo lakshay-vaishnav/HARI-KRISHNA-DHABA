@@ -10,11 +10,6 @@ import thali from "@/assets/thali.jpg";
 
 export const Route = createFileRoute("/")({
   component: Home,
-  head: () => ({
-    meta: [
-      { property: "og:image", content: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=1200" },
-    ],
-  }),
 });
 
 const dishes = [
