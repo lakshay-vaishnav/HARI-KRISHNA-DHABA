@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout, SectionHeading } from "@/components/SiteLayout";
-import restaurantFront from "@/assets/restaurant-front.png.asset.json";
+import restaurantFront from "@/assets/restaurant-front.png";
 import heroFeast from "@/assets/hero-feast.jpg";
 import dalMakhani from "@/assets/dal-makhani.jpg";
 import paneer from "@/assets/paneer.jpg";
@@ -32,7 +32,7 @@ function Home() {
       {/* HERO — restaurant front */}
       <section className="relative isolate flex min-h-[88vh] items-center justify-center overflow-hidden">
         <img
-          src={restaurantFront.url}
+          src={restaurantFront}
           alt="Hari Krishan Dhaba storefront at sunset with lit-up signage"
           className="absolute inset-0 -z-10 h-full w-full object-cover"
         />
