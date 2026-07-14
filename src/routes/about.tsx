@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import thali from "@/assets/thali.jpg";
-import restaurantFront from "@/assets/restaurant-front.png.asset.json";
+import restaurantFront from "@/assets/restaurant-front.png";
 import gallery1 from "@/assets/gallery-1.png.asset.json";
 
 export const Route = createFileRoute("/about")({
@@ -28,7 +28,7 @@ function AboutPage() {
     <SiteLayout>
       {/* HERO */}
       <section className="relative overflow-hidden border-b border-border">
-        <img src={restaurantFront.url} alt="Hari Krishan Dhaba storefront" className="absolute inset-0 -z-10 h-full w-full object-cover opacity-40" />
+        <img src={restaurantFront} alt="Hari Krishan Dhaba storefront" className="absolute inset-0 -z-10 h-full w-full object-cover opacity-40" />
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background/70 via-background/80 to-background" />
         <div className="mx-auto max-w-4xl px-6 py-28 text-center lg:px-10">
           <p className="text-xs uppercase tracking-[0.4em] text-gold">Our story</p>
@@ -101,7 +101,7 @@ function AboutPage() {
               </Link>
             </div>
           </div>
-          <img src={gallery1.url} alt="Interior spread of Hari Krishan Dhaba" loading="lazy" className="w-full rounded-lg object-cover shadow-warm" />
+         <img src={restaurantFront} alt="Hari Krishan Dhaba storefront" loading="lazy" className="w-full rounded-lg object-cover shadow-warm" />
         </div>
       </section>
     </SiteLayout>
