@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { SiteLayout, SectionHeading } from "@/components/SiteLayout";
-import gallery1 from "@/assets/gallery-1.png.asset.json";
-import gallery2 from "@/assets/gallery-2.png.asset.json";
-import restaurantFront from "@/assets/restaurant-front.png.asset.json";
+import gallery1 from "@/assets/gallery-1.png";
+import gallery2 from "@/assets/gallery-2.png";
+import restaurantFront from "@/assets/restaurant-front.png";
 import heroFeast from "@/assets/hero-feast.jpg";
 import dalMakhani from "@/assets/dal-makhani.jpg";
 import paneer from "@/assets/paneer.jpg";
@@ -27,11 +27,11 @@ export const Route = createFileRoute("/gallery")({
 type Tile = { src: string; label: string; span?: "wide" | "tall" | "full" };
 
 const tiles: Tile[] = [
-  { src: restaurantFront.url, label: "The dhaba at dusk", span: "full" },
-  { src: gallery1.url, label: "The house spread · Live tandoor · Dal Makhani", span: "wide" },
+  { src: restaurantFront, label: "The dhaba at dusk", span: "full" },
+  { src: gallery1, label: "The house spread · Live tandoor · Dal Makhani", span: "wide" },
   { src: dalMakhani, label: "Signature Dal Makhani" },
   { src: paneer, label: "Shahi Paneer" },
-  { src: gallery2.url, label: "The dining hall · Paneer Tikka · Veg Biryani · Butter Naan", span: "wide" },
+  { src: gallery2, label: "The dining hall · Paneer Tikka · Veg Biryani · Butter Naan", span: "wide" },
   { src: heroFeast, label: "A full brass thali spread" },
   { src: thali, label: "Milan Special Thali" },
   { src: churnaan, label: "Chur Chur Naan" },
