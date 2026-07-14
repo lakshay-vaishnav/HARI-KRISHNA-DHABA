@@ -42,9 +42,7 @@ function Home() {
           <p className="text-xs uppercase tracking-[0.5em] text-gold">Since 1997 · Palwal, Haryana</p>
       
           <p className="mt-3 font-display text-2xl text-gold/90" style={{ fontFamily: "var(--font-hindi)" }}>हरि कृष्ण ढाबा</p>
-          <p className="mx-auto mt-8 max-w-2xl text-base text-cream/85 sm:text-lg">
-            Slow-cooked North Indian classics, brass-served thalis and a family welcome — twenty-four hours a day on the Delhi–Agra highway.
-          </p>
+         
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <Link
               to="/menu"
