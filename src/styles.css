@@ -101,3 +101,23 @@
   gap: 0.75rem;
   color: var(--color-gold);
 }
+
+@utility input-dhaba {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-border);
+  background: color-mix(in oklab, var(--color-background) 60%, transparent);
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  color: var(--color-foreground);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+input.input-dhaba::placeholder,
+textarea.input-dhaba::placeholder {
+  color: color-mix(in oklab, var(--color-foreground) 40%, transparent);
+}
+.input-dhaba:focus {
+  outline: none;
+  border-color: var(--color-gold);
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--color-gold) 25%, transparent);
+}
