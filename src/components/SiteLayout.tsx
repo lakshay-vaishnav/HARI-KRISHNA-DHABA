@@ -100,7 +100,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
                 <p className="text-xs text-cream/50" style={{ fontFamily: "var(--font-hindi)" }}>हरि कृष्ण ढाबा</p>
               </div>
             </div>
-            <p className="mt-4 text-sm text-cream/60">Serving Palwal since 1998. Pure vegetarian. Open 24 hours.</p>
+            <p className="mt-4 text-sm text-cream/60">Serving Palwal since 1997. Pure vegetarian. Open 24 hours.</p>
           </div>
           <div>
             <p className="text-xs uppercase tracking-[0.25em] text-gold">Visit</p>
