@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Hari Krishan Dhaba · Palwal's beloved 24-hour vegetarian dhaba" },
-      { name: "description", content: "Since 1998, Palwal has come home to Hari Krishan Dhaba for legendary dal makhani, tandoor-fresh naan and pure vegetarian North Indian cooking. Open 24 hours." },
+      { name: "description", content: "Since 1997, Palwal has come home to Hari Krishan Dhaba for legendary dal makhani, tandoor-fresh naan and pure vegetarian North Indian cooking. Open 24 hours." },
     ],
   }),
 });
@@ -39,11 +39,8 @@ function Home() {
         <div className="absolute inset-0 -z-10" style={{ background: "linear-gradient(180deg, oklch(0.11 0.03 30 / 0.55) 0%, oklch(0.11 0.03 30 / 0.4) 40%, oklch(0.11 0.03 30 / 0.85) 100%)" }} />
 
         <div className="relative mx-auto max-w-5xl px-6 py-24 text-center">
-          <p className="text-xs uppercase tracking-[0.5em] text-gold">Since 1998 · Palwal, Haryana</p>
-          <h1 className="mt-6 font-display text-5xl leading-[1.05] text-cream sm:text-7xl md:text-[5.5rem]">
-            A dhaba where the highway <br className="hidden md:block" />
-            <span className="italic text-gradient-gold">pauses for a proper meal.</span>
-          </h1>
+          <p className="text-xs uppercase tracking-[0.5em] text-gold">Since 1997 · Palwal, Haryana</p>
+      
           <p className="mt-3 font-display text-2xl text-gold/90" style={{ fontFamily: "var(--font-hindi)" }}>हरि कृष्ण ढाबा</p>
           <p className="mx-auto mt-8 max-w-2xl text-base text-cream/85 sm:text-lg">
             Slow-cooked North Indian classics, brass-served thalis and a family welcome — twenty-four hours a day on the Delhi–Agra highway.
@@ -70,7 +67,7 @@ function Home() {
         <div className="mx-auto grid max-w-7xl grid-cols-2 gap-y-8 px-6 py-10 md:grid-cols-4 lg:px-10">
           {[
             { k: "Open", v: "24 Hours" },
-            { k: "Since", v: "1998" },
+            { k: "Since", v: "1997" },
             { k: "Cuisine", v: "Pure Veg" },
             { k: "Rating", v: "★ 4.6 · 500+" },
           ].map((s) => (
@@ -122,7 +119,7 @@ function Home() {
               A dhaba built on <span className="italic text-gold">love, ghee</span> and generations of recipes.
             </h2>
             <p className="mt-6 leading-relaxed text-cream/75">
-              Tucked into HUDA Sector 2 on the Mathura–Delhi Road, Hari Krishan Dhaba has been Palwal's favourite pit-stop since 1998. We slow-cook our dal for hours, knead our dough by hand and fire every naan in a live tandoor.
+              Tucked into HUDA Sector 2 on the Mathura–Delhi Road, Hari Krishan Dhaba has been Palwal's favourite pit-stop since 1997. We slow-cook our dal for hours, knead our dough by hand and fire every naan in a live tandoor.
             </p>
             <div className="mt-8">
               <Link to="/about" className="inline-flex items-center gap-2 text-sm font-semibold text-gold hover:brightness-110">
