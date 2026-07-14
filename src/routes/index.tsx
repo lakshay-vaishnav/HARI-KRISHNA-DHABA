@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router"; 
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout, SectionHeading } from "@/components/SiteLayout";
 import restaurantFront from "@/assets/restaurant-front.png";
 import heroFeast from "@/assets/hero-feast.jpg";
