@@ -5,6 +5,7 @@ import paratha from "@/assets/paratha.jpg";
 import churnaan from "@/assets/churnaan.jpg";
 import chowmein from "@/assets/chowmein.jpg";
 import thali from "@/assets/thali.jpg";
+import chai from "@/assets/chai.png";
 
 export type MenuItem = { name: string; hindi?: string; price: string; desc?: string; tags?: string[] };
 export type MenuCategory = {
@@ -213,7 +214,7 @@ export const menu: MenuCategory[] = [
     num: "10",
     title: "Beverages & Chai",
     hindi: "चाय · पेय",
-    image: thali,
+    image: chai,
     blurb: "Kulhad tea, fresh lime, cold coffee — from sunrise to well past midnight.",
     items: [
       { name: "Special Tea", price: "₹28" },
