@@ -31,7 +31,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
       {/* TOP INFO BAR */}
       <div className="relative z-40 border-b border-gold/15 bg-background/95 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-2 text-[11px] uppercase tracking-[0.25em] text-cream/70 lg:px-10">
-          <span className="hidden sm:inline">Since 1998 · Palwal, Haryana</span>
+          <span className="hidden sm:inline">Since 1997 · Palwal, Haryana</span>
           <div className="flex items-center gap-5">
             <span className="text-gold">Open 24 Hours</span>
             <span className="hidden h-3 w-px bg-cream/20 sm:inline-block" />
